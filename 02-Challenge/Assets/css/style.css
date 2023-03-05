@@ -96,7 +96,9 @@ nav a {
 }
 
 .work section {
-    flex: 6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin-left: 0;
     margin-right: 30px;
     padding-left: 15px;
@@ -112,12 +114,12 @@ nav a {
 } */
 
 #refactor-work {
-    
+    flex: 3;
 }
 #refactor-work img {
     /* scale: .45; */
-    width: 200px;
-    height: 200px;
+    width: 900px;
+    height: 350px;
     margin: 20px;
 }
 
