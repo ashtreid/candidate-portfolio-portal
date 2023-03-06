@@ -1,0 +1,210 @@
+:root {
+    --white: #fff;
+    --orange: #e28743;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.header-strip {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: larger;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.header-img {
+    background-color: var(--white);
+    padding: 20px;
+    border: 1px solid var(--orange);
+    margin-right: 20px;
+}
+
+.nav-container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+
+.nav-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-list li {
+    font-size: 18px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-image: url("../images/snow-canyon.png");
+    background-position: 0 -245px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sub-container h2 {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 0;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    gap: 2em;
+}
+
+.about-1 {
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.about-2 {
+    flex: 2;
+    border-left: 5px solid var(--orange);
+    padding-left: 20px;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.work-1 {
+    margin-left: 50px;
+    margin-right: 114px;
+}
+
+.work-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-2 {
+    flex: 1;
+    border-left: 5px solid var(--orange);
+    padding: 10px; 
+}
+
+.label {
+    padding: 5px;
+    background-color: #76b5c5;
+    color: var(--white);
+}
+
+.work-img-1 {
+    flex: 1;
+}
+
+.work-img {
+    background-color: var(--white);
+    padding: 20px;
+    border: 1px solid var(--orange);
+    width: 100%;
+    height: auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact-1 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.contact-2 {
+    flex: 1;
+}
+
+.contact-2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border-left:  5px solid var(--orange);
+    margin-top: 30px;
+    margin-left: 41px;
+    margin-bottom: 0px;
+}
+
+.contact-2 li {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 555px) {
+    nav {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .header-container, li {
+        flex-direction: column-reverse;
+        align-content: center;
+        margin-top: 300px; 
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .header-img {
+        flex-direction: column-reverse
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .about-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .about-1, .about-2 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .work-container, .contact-container {
+        flex-direction: column;
+        padding: 3px;
+    }
+}
