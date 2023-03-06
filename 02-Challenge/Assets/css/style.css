@@ -59,3 +59,19 @@ body {
     margin-top: 60px;
     margin-right: 50px;
 }
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-image: url("../images/snow-canyon.png");
+    background-position: 0 -245px;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.sub-container h2 {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 0;
+}
