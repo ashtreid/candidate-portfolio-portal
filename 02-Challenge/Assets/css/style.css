@@ -1,0 +1,41 @@
+:root {
+    --white: #fff;
+    --orange: #e28743;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.header-strip {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: larger;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+
+.header-img {
+    background-color: var(--white);
+    padding: 20px;
+    border: 1px solid var(--orange);
+    margin-right: 20px;
+}
