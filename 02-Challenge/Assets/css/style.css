@@ -39,3 +39,23 @@ body {
     border: 1px solid var(--orange);
     margin-right: 20px;
 }
+
+.nav-container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+
+.nav-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-list li {
+    font-size: 18px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
