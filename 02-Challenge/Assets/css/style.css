@@ -32,7 +32,6 @@ body {
     margin-left: 40px;
 }
 
-
 .header-img {
     background-color: var(--white);
     padding: 20px;
@@ -66,8 +65,10 @@ body {
     justify-content: flex-end;
     background-image: url("../images/snow-canyon.png");
     background-position: 0 -245px;
+    background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .sub-container h2 {
@@ -133,4 +134,37 @@ body {
     border: 1px solid var(--orange);
     width: 100%;
     height: auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact-1 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.contact-2 {
+    flex: 1;
+}
+
+.contact-2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    border-left:  5px solid var(--orange);
+    margin-top: 30px;
+    margin-left: 41px;
+    margin-bottom: 0px;
+}
+
+.contact-2 li {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-bottom: 10px;
 }
