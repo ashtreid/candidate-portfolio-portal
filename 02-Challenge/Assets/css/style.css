@@ -94,3 +94,43 @@ body {
     border-left: 5px solid var(--orange);
     padding-left: 20px;
 }
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.work-1 {
+    margin-left: 50px;
+    margin-right: 114px;
+}
+
+.work-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-2 {
+    flex: 1;
+    border-left: 5px solid var(--orange);
+    padding: 10px; 
+}
+
+.label {
+    padding: 5px;
+    background-color: #76b5c5;
+    color: var(--white);
+}
+
+.work-img-1 {
+    flex: 1;
+}
+
+.work-img {
+    background-color: var(--white);
+    padding: 20px;
+    border: 1px solid var(--orange);
+    width: 100%;
+    height: auto;
+}
