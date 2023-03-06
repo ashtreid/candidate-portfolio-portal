@@ -168,3 +168,43 @@ body {
     margin-right: 70px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 555px) {
+    nav {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .header-container, li {
+        flex-direction: column-reverse;
+        align-content: center;
+        margin-top: 300px; 
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .header-img {
+        flex-direction: column-reverse
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .about-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .about-1, .about-2 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .work-container, .contact-container {
+        flex-direction: column;
+        padding: 3px;
+    }
+}
