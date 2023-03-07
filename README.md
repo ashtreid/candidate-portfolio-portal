@@ -20,4 +20,4 @@ You'll see the following when you visit my page:
 
 ## Screenshot of my website
 
-![Portfolio](../website-sample.png)
+![Portfolio](./website-sample.png)
